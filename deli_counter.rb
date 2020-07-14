@@ -9,10 +9,7 @@ def line(katz_deli)
     katz_deli.each.with.index do |name, index|
     string_var << "#{index+1}. #{name}"
     end 
-    
-  #   katz_deli.each_with_index do |index,name| 
-  #     puts "The line is currently: #{index + 1}. #{name}"
-  # end
+    puts string_var
   end
 end
 
