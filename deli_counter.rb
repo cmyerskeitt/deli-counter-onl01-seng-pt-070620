@@ -1,5 +1,4 @@
 require "pry" 
-katz_deli =[]
 
 def line(katz_deli)
   if katz_deli.empty?
@@ -25,5 +24,6 @@ def now_serving
     
   else 
     string_var = "Currently Serving #{katz_deli[0]}."
+    binding.pry 
     katz_deli.shift 
   end 
