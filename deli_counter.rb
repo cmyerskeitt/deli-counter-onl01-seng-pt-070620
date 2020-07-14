@@ -26,3 +26,4 @@ def now_serving
     string_var = "Currently Serving #{katz_deli[0]}."
     katz_deli.shift 
   end 
+end 
