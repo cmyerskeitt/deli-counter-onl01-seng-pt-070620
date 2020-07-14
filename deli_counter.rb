@@ -24,4 +24,5 @@ def now_serving
     puts "There is nobody waiting to be served!"
     
   else 
-    string_var = "Currently Serving #{katz_deli{"
+    string_var = "Currently Serving #{katz_deli[0]}."
+    ka
