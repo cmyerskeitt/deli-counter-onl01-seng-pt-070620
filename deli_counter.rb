@@ -8,7 +8,7 @@ def line(katz_deli)
   else 
     string_var = "The line is currently:"
     katz_deli.each_with_index do |name, index|
-    string_var << "#{index + 1}. #{ name }"
+    string_var << "#{index + 1}. #{ name}"
     end 
     puts string_var
   end
