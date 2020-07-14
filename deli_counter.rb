@@ -25,4 +25,5 @@ def now_serving
     
   else 
     string_var = "Currently Serving #{katz_deli[0]}."
-    ka
+    katz_deli.shift 
+  end 
